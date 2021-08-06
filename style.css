@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+.top {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.nav-link:hover {
+    background-image: linear-gradient(tomato, lightsalmon);
+    border-radius: 8px;
+}
+
+.navbar-nav {
+    margin-left: 310px;
+    position: relative;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.banner {
+    outline: 1px;
+    padding: 12em;
+    width: 100%;
+    background: url(images/banner.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.About {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.first {
+    padding: 40px 30px 0px 30px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(129, 161, 202);
+}
+
+.second {
+    padding: 0px;
+    text-align: center;
+    color: whitesmoke;
+    display: block;
+    position: relative;
+}
+
+.cards {
+    margin-top: 100px;
+}
+
+.cardss {
+    margin-top: 30px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    color: rgb(184, 184, 184);
+}
+
+.card {
+    height: 250px;
+}
+
+.img1 {
+    border-radius: 50%;
+    width: 30px;
+    background-color: rgb(55, 137, 192);
+}
+
+.BODY {
+    background-color: rgb(128, 204, 240);
+    color: whitesmoke;
+}
+
+.images {
+    height: 100%;
+}
+
+.blogpost {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.blogCards {
+    height: 70%;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.con {
+    background-color: rgb(238, 234, 234);
+    height: 490px;
+}
+
+.cont {
+    background-color: rgb(128, 204, 240);
+    padding-bottom: 20px;
+}
+
+.footerr {
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    color: white;
+}
+
+.CH:hover {
+    box-shadow: 7px 7px 7px 7px rgb(182, 182, 182);
+}
+
+.cardIt:hover {
+    background-color: wheat
+}
+
+@media screen and (max-width: 576px) {
+    .con {
+        background-color: rgb(228, 222, 222);
+        height: 1490px;
+    }
+    .imz {
+        left: 10px;
+    }
+    .cont {
+        background-color: rgb(128, 204, 240);
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .imz {
+        padding: 0px;
+        margin: 0px;
+    }
+    .contain {
+        height: auto;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .FOOT {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        height: auto;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .banner {
+        font-size: xx-small;
+        font-weight: 500;
+    }
+    .About {
+        font-size: xx-small;
+    }
+    .footerr {
+        text-align: center;
+        margin: 100px;
+        padding: 50px;
+        color: white;
+        font-size: small;
+    }
+    .card {
+        height: 250px;
+        width: 70%;
+        margin-left: 50px;
+        font-size: medium;
+    }
+    .CB {
+        font-size: small;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .con {
+        background-color: rgb(228, 222, 222);
+        height: auto;
+    }
+    .cont {
+        background-color: rgb(128, 204, 240);
+        height: auto;
+        margin-bottom: 100px;
+        padding-bottom: 40px;
+        font-size: small;
+        font-weight: 500;
+    }
+    .contain {
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .rw {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .imz {
+        right: 60px;
+    }
+    .FOOT {
+        padding-top: 10px;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+        text-align: center;
+    }
+    .banner {
+        font-size: x-small;
+        font-weight: 500;
+    }
+    .About {
+        font-size: xx-small;
+    }
+    .footerr {
+        text-align: center;
+        margin: 100px;
+        padding: 50px;
+        color: white;
+        font-size: x-small;
+    }
+    .CB {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .con {
+        background-color: rgb(228, 222, 222);
+        height: auto;
+    }
+    .imz {
+        left: 15px;
+    }
+    .cont {
+        background-color: rgb(128, 204, 240);
+        height: auto;
+        margin-bottom: 100px;
+        padding-bottom: 40px;
+        font-size: small;
+        font-weight: 500;
+    }
+    .contain {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .FOOT {
+        padding-top: 10px;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+        text-align: center;
+    }
+    .banner {
+        font-size: xx-small;
+        font-weight: 500;
+    }
+    .About {
+        font-size: xx-small;
+    }
+    .card {
+        height: 250px;
+        width: 70%;
+        margin-left: 50px;
+    }
+    .CB {
+        font-size: small;
+    }
+    .CF {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .imz {
+        left: 20px;
+    }
+    .card {
+        width: 80%;
+    }
+}
